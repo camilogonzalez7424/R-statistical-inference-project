@@ -1,0 +1,27 @@
+---
+title: "Proyecto Final"
+author: "Grupo 4 Inferencia"
+date: "15/11/2021"
+output: html_document
+---
+
+```{r}
+attach(Data)
+tabla <- table(Genero)
+```
+
+
+```{r}
+
+Genero <- factor(Data$ESTU_GENERO, labels= c ("Femenino", "Masculino"))
+barchart(Genero)
+
+
+pie(tabla, main="Género de los Estudiantes 
+Encuestados")
+
+tabla.1 <- freq(Genero, plot = TRUE)
+tabla.1
+
+```
+

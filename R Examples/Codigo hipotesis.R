@@ -17,7 +17,7 @@ library(lattice)
 library(descr)
 library(openxlsx)
 
-Base <- read_excel("University/Ingenieria-Telematica-ICESI/Semestre_IV/Inferencia/R/Taller.xlsx")
+Base <- read_excel("University/Ingenieria-Telematica-ICESI/Semestre_IV/Inferencia/Project R/R Examples/Taller.xlsx")
 View(Base)
 
 # colocar labels a una variable categorica: importante Respetar el orden
